@@ -1968,6 +1968,15 @@
                                                 <rect key="frame" x="212" y="0.0" width="106" height="200"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iTS-Ep-igc">
+                                                <rect key="frame" x="20" y="104" width="67" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                                <connections>
+                                                    <segue destination="wiV-ov-usf" kind="show" id="NC9-EQ-NVh"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <viewLayoutGuide key="safeArea" id="FSP-L3-ZVn"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -2123,6 +2132,22 @@
             </objects>
             <point key="canvasLocation" x="3541" y="157"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="0xM-PR-4KT">
+            <objects>
+                <viewController id="wiV-ov-usf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vjy-0N-yPu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="mUm-dc-UWG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="O7Z-Qk-DeJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FFg-Rq-C7n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4225" y="162"/>
+        </scene>
         <!--Table View Controller-->
         <scene sceneID="Fso-vl-8aw">
             <objects>
@@ -2156,7 +2181,7 @@
                             <tableViewSection id="BVI-3N-5HM" colorLabel="IBBuiltInLabel-Gray">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="335" id="S8w-oQ-soB">
-                                        <rect key="frame" x="0.0" y="176.66666603088379" width="414" height="335"/>
+                                        <rect key="frame" x="0.0" y="176.99999809265137" width="414" height="335"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="S8w-oQ-soB" id="RIl-xe-nEv">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="335"/>
@@ -2244,7 +2269,7 @@
                             <tableViewSection id="i5e-av-tRw">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="65" id="tDN-qF-SfQ">
-                                        <rect key="frame" x="0.0" y="578.99999809265137" width="414" height="65"/>
+                                        <rect key="frame" x="0.0" y="579.33333015441895" width="414" height="65"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tDN-qF-SfQ" id="vnb-Ou-Jdw">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="65"/>
@@ -2264,7 +2289,7 @@
                             <tableViewSection id="tdC-QK-hp6" colorLabel="IBBuiltInLabel-Gray">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="335" id="GFL-mF-FPL">
-                                        <rect key="frame" x="0.0" y="711.33333015441895" width="414" height="335"/>
+                                        <rect key="frame" x="0.0" y="711.66666221618652" width="414" height="335"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GFL-mF-FPL" id="nIm-Pe-mkS">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="335"/>
